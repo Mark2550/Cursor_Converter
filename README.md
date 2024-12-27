@@ -1,9 +1,6 @@
-GUI in progress
+Automatically converts selected curzors to another type (example from Windows .cur to Linux Xcur)
 
-From Xcur to cur or .ani files
-
-Requies: 
+Requires: 
 - ImageMagick-7.1.1-39-Q16-x64 - [Latest x64 Windows](https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-39-Q16-x64-dll.exe)
-  - [Website you can download](https://imagemagick.org/script/download.php#windows)
 - pip install win2xcur
 
