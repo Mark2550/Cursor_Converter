@@ -5,8 +5,8 @@ import subprocess
 
 def main():
     # Paths
-    cursor_dir = r"C:\Users\Márk\Documents\cursors"
-    output_dir = r"C:\Users\Márk\Documents\cursor_new"
+    cursor_dir = r"C:\Users\User\Documents\cursor_old"
+    output_dir = r"C:\Users\User\Documents\cursor_new"
      
     defaultFiles = [f for f in listdir(cursor_dir) if isfile(join(cursor_dir, f))]
     script = "x2wincur [input] -o [output]"
